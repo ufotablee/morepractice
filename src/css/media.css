@@ -1,0 +1,20 @@
+@media (max-width: 1380px){
+    div.sports ul{
+        justify-content: center;
+    }
+    header {
+        height: 860px;
+    }
+    span.secondTitle{
+        font-size: 80px;
+    }
+    .firstTitle{
+        font-size: 80px;
+    }
+    div.info_des h2{
+        font-size: 60px;
+    }
+    div.info_des2 h2{
+        font-size: 60px;
+    }
+}
