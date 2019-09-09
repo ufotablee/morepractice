@@ -10,7 +10,7 @@
     margin: 0 10% auto;
 }
 header {
-    background: url(src/img/header.webp);
+    background: url(/build/img/header.webp);
     width: 100%;
     height: 960px;
     overflow: hidden;
@@ -96,7 +96,7 @@ nav span {
 }
 /* section */
 section.athlets {
-    background: url(/src/img/section.webp);
+    background: url(/build/img/section.webp);
     height: 959px;
 }
 .main {
@@ -152,14 +152,14 @@ section.athlets {
  }
 .man{
     padding-top: 3%;
-    background: url(/src/img/palka.png), url(/src/img/plus.png),url(/src/img/plus.png);
+    background: url(/build/img/palka.png), url(/build/img/plus.png),url(/build/img/plus.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 75% 25%, 20% 15%, 17% 14%;
 }
 
  /* section */
  .players {
-     background: url(/src/img/section2.webp);
+     background: url(/build/img/section2.webp);
      height: 954px;
      overflow: hidden;
  }
