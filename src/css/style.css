@@ -10,7 +10,7 @@
     margin: 0 10% auto;
 }
 header {
-    background: url(/build/img/header.webp);
+    background: url(../img/header.webp);
     width: 100%;
     height: 960px;
     overflow: hidden;
@@ -96,7 +96,7 @@ nav span {
 }
 /* section */
 section.athlets {
-    background: url(/build/img/section.webp);
+    background: url(../img/section.webp);
     height: 959px;
 }
 .main {
@@ -152,19 +152,19 @@ section.athlets {
  }
 .man{
     padding-top: 3%;
-    background: url(/build/img/palka.png), url(/build/img/plus.png),url(/build/img/plus.png);
+    background: url(../img/palka.png), url(../img/plus.png),url(../img/plus.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 75% 25%, 20% 15%, 17% 14%;
 }
 
  /* section */
  .players {
-     background: url(/build/img/section2.webp);
+     background: url(../img/section2.webp);
      height: 954px;
      overflow: hidden;
  }
  .man_2 {
-    background: url(/src/img/nigapalka.png),url(/src/img/nigapalka.png), url(/src/img/plus.png), url(/src/img/plus.png),url(/src/img/plus.png);
+    background: url(../img/nigapalka.png),url(../img/nigapalka.png), url(../img/plus.png), url(../img/plus.png),url(../img/plus.png);
     background-position: 35% 80%, right top, 320px 120px, 335px 135px, 700px 400px;
     background-repeat: no-repeat,no-repeat;
     position: relative;
@@ -295,7 +295,7 @@ height: 100%;
 }
 /* dasdasd */
 section.footer {
-    background: url(/src/img/footer.webp);
+    background: url(../img/footer.webp);
     height: 953px;
     display: flex;
     flex-direction: column;
