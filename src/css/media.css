@@ -10,8 +10,20 @@
     header {
         height: 860px;
     }
+    .main{
+        margin: 0 5% auto;
+    }
+    .main_2{
+        margin: 4% 5% auto;
+    }
     span.secondTitle{
         font-size: 80px;
+    }
+    .content_div p {
+        font-size: 15px;
+    }
+    .content_div2 p {
+        font-size: 15px;
     }
     .firstTitle{
         font-size: 80px;
@@ -21,11 +33,11 @@
         text-align: center;
     }
     div.info_des p {
-        font-size: 16px;
+        font-size: 19px;
         text-align: center;
     }
     div.info_des2 p {
-        font-size: 16px;
+        font-size: 19px;
         text-align: center;
     }
     div.info_des2 h2{
@@ -80,7 +92,7 @@
        z-index: 0;
     }
     .man_2 img {
-        transform: scale(1);
+        transform: scale(0.8);
         position: absolute;
         right: -220px;
     }
@@ -97,5 +109,19 @@
     .athlets {
         height: 100% !important;
         background-size: cover !important;
+    }
+}
+@media (max-width: 850px){
+    div.info_des h2{
+        font-size: 40px;
+    }
+    div.info_des2 h2{
+        font-size: 40px;
+    }
+    div.info_des2 p{
+        font-size: 15px;
+    }
+    div.info_des p{
+        font-size: 15px;
     }
 }
