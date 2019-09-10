@@ -1,3 +1,8 @@
+@media (max-width: 1680px){
+    div.info_des2 h2{
+        font-size: 80px;
+    }
+}
 @media (max-width: 1380px){
     div.sports ul{
         justify-content: center;
@@ -12,9 +17,85 @@
         font-size: 80px;
     }
     div.info_des h2{
-        font-size: 60px;
+        font-size: 50px;
+        text-align: center;
+    }
+    div.info_des p {
+        font-size: 16px;
+        text-align: center;
+    }
+    div.info_des2 p {
+        font-size: 16px;
+        text-align: center;
     }
     div.info_des2 h2{
-        font-size: 60px;
+        font-size: 50px;
+    }
+}
+@media (max-width: 1000px){
+    div.info_content::after{
+        content: ' ' attr(data-value) ' ';
+        width: 80px;
+        height: 80px;
+        
+    }
+    .main {
+        margin: 0 2% auto;
+    }
+    .main_2 {
+        margin: 2% 3% auto;
+    }
+    .content{
+        margin: 0 5% auto;
+    }
+    .content_div{
+        width: 50%;
+        justify-content: space-between
+    }
+    .content_div2{
+        width: 50%;
+        z-index: 2;
+        justify-content: space-between;
+    }
+    .content_div h2{
+        font-size: 50px;
+    }
+    .content_div h4{
+        font-size: 25px;
+    }
+    .content_div2 h4{
+        font-size: 25px;
+    }
+    .content_div p{
+        font-size: 15px;
+    }
+    .content_div2 p{
+        font-size: 15px;
+    }
+    .content_div2 h2{
+        font-size: 50px;
+    }
+    .man_2 {
+       position: relative;
+       z-index: 0;
+    }
+    .man_2 img {
+        transform: scale(1);
+        position: absolute;
+        right: -220px;
+    }
+    .man {
+        width: 45%;
+    }
+    .man img {
+        width: 100%;
+    }
+    .players {
+        height: 100% !important;
+        background-size: cover !important;
+    }
+    .athlets {
+        height: 100% !important;
+        background-size: cover !important;
     }
 }

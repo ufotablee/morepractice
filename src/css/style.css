@@ -102,7 +102,7 @@ section.athlets {
 .main {
     margin: 0 10% auto; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .content_div {
    display: flex;
@@ -171,7 +171,7 @@ section.athlets {
  }
 
  .main_2 {
-    margin: 4% 10% auto; 
+    margin: 3% 10% auto; 
     display: flex;
     justify-content: space-between;
     
@@ -207,11 +207,15 @@ section.athlets {
 /* adasdasda */
 .info_content {
     display: flex;
+    justify-content: center;
 }
 .info {
     overflow: hidden;
 }
 .info_content div{
+    position: relative;
+}
+.info_content {
     position: relative;
 }
 .info_block{
@@ -221,36 +225,22 @@ section.athlets {
     flex-direction: column;
     align-items: center;
 }
-.info_block::before{
+
+div.info_content::after{
     content: ' ' attr(data-value) ' ';
     width: 120px;
     height: 120px;
     color: white;
-    justify-content: center;
     font-size: 25px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: -6%;
-    top: 30%;
-    background: #573fae;
-    z-index: 10;
-}
-.info_block2::after{
-    content: ' ' attr(data-value) ' ';
-    width: 120px;
-    height: 120px;
-    color: white;
-    justify-content: center;
-    font-size: 25px;
-    right: -6%;
     top: 30%;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: absolute;
     background: #573fae;
     z-index: 10;
 }
+
 .info_block2{
     width: 50%;
     display: flex;
