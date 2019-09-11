@@ -6,7 +6,7 @@ const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 //Оптисизация стилей
 const cleanCSS = require('gulp-clean-css');
-//Оптимизация скриптов
+// Оптимизация скриптов
 const uglify = require('gulp-uglify');
 //Удаление файлов
 const del = require('del');
@@ -61,7 +61,7 @@ gulp.task('scripts', () => {
    return gulp.src(scriptFiles)
       //Объединение файлов в один
       .pipe(concat('script.js'))
-      //Минификация JS
+      // Минификация JS
       .pipe(uglify({
          toplevel: true
       }))

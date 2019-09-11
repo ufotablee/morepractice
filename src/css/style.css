@@ -63,6 +63,10 @@ nav span {
     display: flex;
     justify-content: center;
 }
+.btnDowload2{
+    display: flex;
+    justify-content: center;
+}
 .btnDowload div {
     display: flex;
     justify-content: space-around;
@@ -74,22 +78,53 @@ nav span {
     margin-right: 50px;
     align-items: center;
 }
+.btnDowload2 div {
+    display: flex;
+    justify-content: space-around;
+    background: #573fae;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 50px;
+    align-items: center;
+}
+.btnDowload2 div span {
+    font-weight: 100;
+    font-size: 10px;
+
+}
 .btnDowload div span {
     font-weight: 100;
     font-size: 10px;
 
 }
+.btnDowload2 div span.market {
+    font-weight: 700;
+    font-size: 12px;
+}
 .btnDowload div span.market {
     font-weight: 700;
     font-size: 12px;
+}
+.btnDowload2 a div {
+    text-decoration: none;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
 }
 .btnDowload a div {
     text-decoration: none;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,1);
 }
+.btnDowload2 a{
+    text-decoration: none;
+  
+}
 .btnDowload a{
     text-decoration: none;
   
+}
+.btnDowload2{
+    margin-top: 10%;
 }
 .btnDowload{
     margin-top: 10%;
@@ -258,6 +293,7 @@ div.info_content::after{
 .info_des2 h2{
     color:#c0c0c0;
     font-size: 90px;
+    text-align: center;
 }
 .info_des2 p{
     font-size: 20px;
@@ -272,6 +308,7 @@ div.info_content::after{
     font-size: 20px;
     font-weight: 700;
     margin-top: 10%;
+    max-width: 660px;
 }
 section.info img{
 width: 100%;
@@ -285,7 +322,7 @@ height: 100%;
 }
 /* dasdasd */
 section.footer {
-    background: url(../img/footer.webp);
+    background: url(../img/fotter.jpg);
     height: 953px;
     display: flex;
     flex-direction: column;
@@ -319,15 +356,15 @@ section.footer {
 .footer_footer{
    color: white;
    display: flex;
-   justify-content: space-between;
-   margin-bottom: 3%;
-   margin-left: 3%;
-   margin-right: 3%;
+   justify-content: space-around;
+   width: 100%;
+   height: 15%;
+   align-items: center;
+   background: #0a0e34;
 }
 div.iii {
     display: flex;
     justify-content: space-between;
-    width: 8%;
     min-width: 150px;
 }
 

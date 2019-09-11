@@ -115,6 +115,44 @@
     div.info_des h2{
         font-size: 40px;
     }
+    header {
+    height: 100%;
+    background-size: cover;
+    background-position-x: 55%;
+    }
+    div.title span {
+        font-size: 55px;
+    }
+    div.title {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    div.sports{
+        margin-top: 15%;
+    }
+    div.sports ul{
+        align-items: center;
+    }
+    div.sports ul li:first-child{
+        padding: 0;
+    }
+    div.sports ul li a{
+        font-size: 17px;
+    }
+    div.btnDowload{
+        margin-bottom: 13%;
+        justify-content: space-around;
+    }
+    div.btnDowload a div{
+        width: 300px;
+        height: 70px;
+        margin: 0;
+        justify-content: space-around
+    }
+    div.btnDowload a div span{
+       font-size: 15px;
+    }
     div.info_des2 h2{
         font-size: 40px;
     }
@@ -124,4 +162,137 @@
     div.info_des p{
         font-size: 15px;
     }
+    .footer_footer div {
+        display: none;
+    }
+    .footer_footer div.iii{
+        display: flex;
+        justify-content: space-between
+    }
+    div.footer_footer {
+        justify-content: center;
+        margin: 0;
+        height: 10%;
+    }
+    section.footer{
+        height: 900px;
+    }
+}
+@media (max-width: 768px){
+    nav {
+        padding: 4% 0 ;
+    }
+    div.btnDowload{
+        margin-bottom: 10%;
+    }
+    div.content {
+        margin: 0 1.5% auto;
+    }
+    div.title{
+       max-width: 500px;
+    }
+    div.help{
+        display: flex;
+        justify-content: center;
+    }
+    span.secondTitle{
+       text-align: center;
+    }
+    div.man img {
+        position: absolute;
+        width: 40%;
+        left: 0%;
+    }
+    div.man {
+        width: 20%;
+    }
+    div.content_div{
+        width: 65%;
+    }
+    div.content_div h2{
+        display: flex;
+        justify-content: center;
+    }
+    .content_div p{
+        width: 376px;
+    }
+    .content_div div{
+        align-items: center;
+    }
+    .man_2 img{
+        position: absolute;
+        transform: scale(0.6);
+        top: -15%;
+        right: -400px;
+    }
+    .content_div2 div{
+        align-items: center;
+        
+    }
+    .content_div2 {
+       justify-content: space-between;
+       min-height: 700px;
+    }
+    .content_div2 h2{
+        text-align: center;
+    }
+    .info_content{
+        flex-direction: column;
+    }
+    .info_img{
+        width: 100%;
+        height: 100%;
+    }
+    div.info_text{
+        width: 100%;
+    }
+    div.info_text h2{
+        font-size: 70px;
+        text-align: start;
+    }
+    div.info_text{
+        width: 100%;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 15% 4% ;
+    }
+    div.info_text p{
+        margin-top: 2%;
+        width: 100%;
+        text-align: start;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    div.info_content::after{
+        left: 5%;
+        top:50%;
+    }
+    div.info_content{
+        align-items: flex-start;
+    }
+    div.info_content2 {
+        flex-direction: column-reverse;
+    }
+   div.footer_title{
+       flex-wrap: wrap;
+       position: relative;
+   }
+   div.footer_title div{
+    flex-basis: 100%;
+    align-items: center;
+    padding: 0;
+    }
+    div.footer_main{
+        top: 10%;
+    }
+    div.footer_title img {
+        padding-bottom: 50px;
+    }
+    div.btnDowload2{
+        margin-top: 20%;
+    }
+    
+
 }
