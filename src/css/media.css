@@ -296,3 +296,83 @@
     
 
 }
+@media (max-width: 610px){
+    nav span {
+        display: none;
+    }
+    nav {
+        justify-content: center;
+    }
+    .btnDowload div{
+        width: 270px !important;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    div.sports {
+        margin-bottom: 30px;
+        margin-top: 0;
+        justify-content: center;
+        display: flex;
+    }
+    div.sports ul li a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    div.sports ul{
+        flex-wrap: wrap;
+        height: 80px;
+        width: 84%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    div.sports ul li {
+        padding-left: 50px;
+    }
+    div.sports ul li:last-child{
+        padding-right: 10%;
+        padding-left: 5%;
+    }
+    
+}
+@media (max-width: 320px){
+    .main{
+        display: none;
+    }
+    .main_2{
+        display: none;
+    }
+    .slider{
+        display: block;
+    }
+    .slider_img {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider img {
+        height: 100%;
+    }
+    .slider_header{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .slider_header h2{
+       text-align: center;
+       font-size: 34px;
+       color: #817878;
+    }
+    section.athlets{
+        background-size: auto !important;
+        background-position-y: 920px;
+    }
+    section.players{
+        background-size: auto !important;
+        background-position-y: 920px;
+    }
+}

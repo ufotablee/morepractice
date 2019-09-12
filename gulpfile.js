@@ -7,8 +7,8 @@ const autoprefixer = require('gulp-autoprefixer');
 //Оптисизация стилей
 const cleanCSS = require('gulp-clean-css');
 // Оптимизация скриптов
-const uglify = require('gulp-uglify');
-//Удаление файлов
+// const uglify = require('gulp-uglify');
+// //Удаление файлов
 const del = require('del');
 //Синхронизация с браузером
 const browserSync = require('browser-sync').create();
@@ -62,9 +62,9 @@ gulp.task('scripts', () => {
       //Объединение файлов в один
       .pipe(concat('script.js'))
       // Минификация JS
-      .pipe(uglify({
-         toplevel: true
-      }))
+      // .pipe(uglify({
+      //    toplevel: true
+      // }))
       //Выходная папка для скриптов
       .pipe(gulp.dest('./build/js'))
       .pipe(browserSync.stream());
