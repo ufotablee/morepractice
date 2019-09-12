@@ -340,6 +340,28 @@
     
 }
 @media (max-width: 320px){
+    .secondTitle {
+        font-size: 33px !important;
+    }
+    .btnDowload a div {
+        width: 150px !important;
+        height: 40px !important;
+    }
+    .btnDowload a div span{
+       font-size: 8px !important; 
+    }
+    .sports ul li a{
+        font-size: 12px !important;
+    }
+    .sports ul li{
+        padding-left: 5% !important;
+    }
+    .btnDowload a div img{
+        height: 30px;
+     }
+    .firstTitle {
+        font-size: 33px !important;
+    }
     .main{
         display: none;
     }
@@ -374,5 +396,30 @@
     section.players{
         background-size: auto !important;
         background-position-y: 920px;
+    }
+    div.info_content::after{
+        display: none;
+    }
+    .info_text h2{
+        font-size: 35px !important;
+    }
+    .info_text p{
+        font-size: 12px !important;
+    }
+    .footer_title h2{
+        font-size: 40px !important;
+    }
+    .footer_title p{
+        font-size: 16px !important;
+    }
+    .footer_title img{
+        width: 90px !important;
+    }
+    .btnDowload{
+        
+    }
+    section.footer {
+       height: 500px;
+       background-position-y: 620px;
     }
 }
