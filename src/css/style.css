@@ -341,7 +341,7 @@ div.info_content::after{
     position: relative;
 }
 .info_des2 h2{
-    color:#c0c0c0;
+    color:#2e2525;
     font-size: 90px;
     text-align: center;
 }
@@ -351,7 +351,7 @@ div.info_content::after{
     margin-top: 10%;
 }
 .info_des h2{
-    color:#c0c0c0;
+    color:#2e2525;
     font-size: 90px;
 }
 .info_des p{
